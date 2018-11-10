@@ -1,0 +1,114 @@
+.Container {
+  width: 53%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.Body {
+  border-top: 1px solid #895061;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.Navigation {
+  font-weight: bold;
+  position: relative;
+}
+
+.Navigation a {
+  color: inherit;
+}
+
+.NavigationLeft {
+  text-align: left;
+}
+
+.NavigationRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.SpanLink {
+  
+}
+
+.SpanLink:hover, .BodyLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Errors {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #a12736;
+}
+
+.LoadingIndicator {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.LoadingIndicator i {
+  font-size: 35px;
+}
+
+.Header {
+  margin: 15px 0 10px 0;
+  font-size: 2.5vh;
+  color: #78244C;
+}
+
+.DataRow {
+  margin: 5px 0;
+}
+
+.HighlightedData, .BodyLink {
+  color: #78244C;
+}
+
+.ResponseContainer {
+  margin: 10px auto 10px auto;
+  width: 80%;
+  border-radius: 15px;
+  padding: 1.8%;
+  text-align: left;
+  background-color: black;
+}
+
+.QAPair {
+  margin: 5px auto 17px auto;
+}
+
+.QAPair table {
+  margin: 0;
+}
+
+.QuestionIndex, .Question {
+  font-size: 26px;
+}
+
+.QuestionIndex, .AnswerDash {
+  vertical-align: top;
+}
+
+.AnswerDash, .Answer {
+  color: #74D6F9;
+}
+
+.LinkBackContainer {
+  width: 80%;
+  margin: 10px auto 20px auto;
+  position: relative;
+  left: -1.8%;
+  text-align: left;
+}
+
+.LinkBack {
+  
+}
+
+.LinkBack:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}

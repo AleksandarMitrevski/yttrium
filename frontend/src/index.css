@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(./fonts/Montserrat-Regular.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #422736;
+  color: #895061;
+}
+
+input[type=text], input[type=password] {
+  color: #74D6F9;
+  background: none;
+  padding: 7px 10px;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid #0677A1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  outline: none !IMPORTANT;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #0677A1;
+  opacity: 1; /* Firefox */
+}
+
+textarea {
+  border: 1px solid #0677A1;
+  background: none;
+  outline: none;
+  padding: 7px 10px;
+  color: #74D6F9;
+}
+
+button {
+  font-size: 14px;
+  padding: 6px 10px;
+  background-color: #353340;
+  color: #895061;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+button:active {
+  background-color: #282730;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.App-title {
+  font-size: calc(15px + 8.15vw);
+  margin-top: 5.66%;
+  margin-bottom: 0.5%;
+  color: #78244C;
+}

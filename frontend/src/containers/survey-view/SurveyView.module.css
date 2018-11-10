@@ -1,0 +1,89 @@
+.Container {
+  width: 53%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.Body {
+  border-top: 1px solid #895061;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.Navigation {
+  font-weight: bold;
+  position: relative;
+}
+
+.Navigation a {
+  color: inherit;
+}
+
+.NavigationLeft {
+  text-align: left;
+}
+
+.NavigationRight {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.SpanLink {
+  
+}
+
+.SpanLink:hover, .BodyLink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.Errors {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #a12736;
+}
+
+.LoadingIndicator {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.LoadingIndicator i {
+  font-size: 35px;
+}
+
+.Header {
+  margin: 15px 0 10px 0;
+  font-size: calc(6px + 2.5vh);
+  color: #78244C;
+}
+
+.DataRow {
+  margin: 5px 0;
+}
+
+.UserLink {
+  color: #78244C;
+}
+
+.ActionRow {
+  margin: 10px 0 5px 0;
+}
+
+.Button {
+  color: #78244C;
+  padding: 7px 15px;
+}
+
+.HighlightedData, .BodyLink {
+  color: #78244C;
+}
+
+.ActionRow .Button {
+  width: 120px;
+}
+
+.ActionRow .Button:nth-of-type(2) {
+  margin-left: 10px;
+}
